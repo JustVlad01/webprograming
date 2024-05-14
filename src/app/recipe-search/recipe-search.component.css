@@ -1,0 +1,57 @@
+/* Add to your component's CSS file */
+
+/* Container Styles */
+.container {
+    padding-top: 180px; /* More padding at the top */
+}
+
+/* Heading Styles */
+h2 {
+    color: #e7e5e5; /* Dark gray text color */
+    font-size: 2.5rem; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Search Box Styling */
+.search-container {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the container */
+    background: #e1dfdf; /* White background color */
+}
+
+.input-group {
+    border-radius: 8px; /* Rounded corners for input group */
+}
+
+.form-control {
+    border: 2px solid #ced4da; /* Solid border for the input */
+    border-right: none; /* Remove right border */
+    height: 50px; /* Taller input field */
+    font-size: 16px; /* Larger font size for input */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none; /* No border */
+    height: 50px; /* Match input field height */
+    border-radius: 0 8px 8px 0; /* Rounded corners on the right side */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+.fa-search {
+    color: white; /* White color icon */
+}
+
+body {
+    background-image: url('../../assets/images/background.jpg'); 
+    background-size: cover; /* Cover the entire area of the header */
+    background-position: left; /* Center the background image */
+    background-repeat: repeat; /* Do not repeat the image */
+    min-height: 600px; /* Set a minimum height for the header */
+}

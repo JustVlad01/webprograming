@@ -1,0 +1,63 @@
+/* Container Styles */
+.container {
+    max-width: 1200px; /* Adjust container width */
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+}
+
+.card:hover {
+    transform: scale(1.03); /* Slightly enlarge cards on hover */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Add shadow for depth */
+}
+
+.card-img-top {
+    width: 100%; /* Ensure image covers the card top area */
+}
+
+.card-title {
+    color: #333; /* Dark color for title */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.card-text {
+    font-size: 14px; /* Smaller text for the summary */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis to overflow text */
+}
+
+.btn-success {
+    background-color: #28a745; /* Bootstrap green color */
+    border: none; /* No border for a cleaner look */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 50%; /* Adjusts grid for smaller screens */
+        max-width: 50%; /* Use half-width on small screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-4 {
+        flex: 0 0 100%; /* Full width on extra small screens */
+        max-width: 100%;
+    }
+}
+body {
+    background-image: url('../../assets/images/background.jpg');
+    background-size: cover; /* Cover the entire area of the header */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    min-height: 300px; /* Set a minimum height for the header */
+}
+ h2{
+    color: rgb(245, 245, 240);
+ }

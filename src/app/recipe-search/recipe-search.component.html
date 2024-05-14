@@ -1,0 +1,15 @@
+<body>
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Find Your Favorite Recipes</h2>
+    <div class="search-container mx-auto" style="max-width: 600px;">
+        <div class="input-group mb-3 shadow">
+            <input type="text" class="form-control" placeholder="What are you craving?" [(ngModel)]="query">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" (click)="searchRecipes()">
+                    <i class="fa fa-search"></i> Search
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
